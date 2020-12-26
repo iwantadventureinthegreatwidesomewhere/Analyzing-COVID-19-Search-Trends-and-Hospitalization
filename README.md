@@ -1,14 +1,5 @@
-# COMP551-minproject1
-Group: Sean, Marco, David
+# Analyzing COVID-19 Search Trends and Hospitalization
 
-##### Task1.ipynb must be ran cell by cell.  By running all at once, a cell has an issue withe above cells occuring too fast.  Make sure there are no warnings in task 1 before moving on to part 2.
+We implemented supervised learning, via both k-nearest neighbors and regression tree models, to examine whether Google search trends for various medical symptoms are related to COVID-19 hospitalizations. If so, public health experts could use search trends to better detect COVID-19 outbreaks earlier in communities. Two datasets compiled by Google were used - one that included weekly data reflecting the volume of Google searches for health symptoms across multiple US states, and the other that included data for daily and cumulative COVID-19 hospitalizations for each US state. Prior to implementing these models, k-means clustering and PCA reduction were used to help us understand the provided data.
 
-##### Task3.ipynb will take up to 5 minutes to run completely.  Please be aware
-
-Task1.ipynb will import googlesearchraw.csv,  hospitalizationraw.csv and will output mergedDataset.csv
-
-Task2.ipynb will import mergedDataset.csv and will output plots within the notebook itself.
-
-Task3.ipynb will import mergedDataset.csv and will output 14 matrices.  1 + 6 matrices for costs throughout symptoms for regression trees and 1 + 6 matrices for costs throughout symptoms for KNNs.  The matrices are available in folder "ONLY_FOR_REFERENCE" if needed.  If indeed needed, copy files from "ONLY_FOR_REFERENCE" into parent folder.
-
-Task4.ipynb will import mergedDataset.csv and the 14 matrices created by Task3.ipynb. This is a special task where all of the results from task 3 are visualised in order to help understanding the costs. It will output plots within the notebook itself.
+We concluded that supervised learning can be used to predict COVID-19 hospitalizations as many of the medical symptoms that one expects to be correlated to COVID-19 were those that produced some of the lowest validation error in our results.
