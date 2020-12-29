@@ -4,6 +4,8 @@ We implemented supervised learning, via both k-nearest neighbors and regression 
 
 We concluded that supervised learning can be used to predict COVID-19 hospitalizations as we observed that many of the medical symptoms that one expects to be correlated to COVID-19 were those that produced some of the best validation results.
 
+See [complete paper](P1_Paper.pdf) to read more.
+
 <img src="preview1.png" width="500">
 
 <img src="preview2.png" width="500">
